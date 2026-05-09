@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    font-family: arial;
+    margin-top: 100px;
+    background-color: lightgreen;
+}
+
+.login {
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: aqua;
+}
+
+#hasil {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightcoral;
+}
