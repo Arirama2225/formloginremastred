@@ -1,14 +1,87 @@
-<!DOCTYPE html>
-<html lang="id">
+<<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>CRUD Javascript</title>
+
+    <link rel="stylesheet" href="dashboard.css">
 </head>
+
 <body>
 
-    <h1>Selamat Datang di Dashboard</h1>
-    <p>Login berhasil 🎉</p>
+    <table>
+        <tr>
+
+            <!-- FORM -->
+            <td>
+
+                <form onsubmit="event.preventDefault(); onformsubmit();" autocomplete="off">
+
+                    <div>
+                        <label>Namaku</label><br>
+                        <input type="text" name="namaku">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label>Umurku</label><br>
+                        <input type="text" name="umurku">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label>Alamat Gue</label><br>
+                        <input type="text" name="alamatgue">
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label>Hobi Gue</label><br>
+                        <input type="text" name="hobigue">
+                    </div>
+
+                    <br>
+
+                    <div class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+
+                </form>
+
+            </td>
+
+            <!-- TABEL -->
+            <td>
+
+                <table class="list" id="employeeList" border="1">
+
+                    <thead>
+                        <tr>
+                            <th>Namaku</th>
+                            <th>Umurku</th>
+                            <th>Alamat Gue</th>
+                            <th>Hobi Gue</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                    </tbody>
+
+                </table>
+
+            </td>
+
+        </tr>
+    </table>
+
+    <script src="dashboard.js"></script>
 
 </body>
+
 </html>
